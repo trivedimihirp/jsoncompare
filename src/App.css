@@ -1,0 +1,44 @@
+
+#root{
+  display: flex;
+  
+}
+
+.react-bootstrap-table{
+  background-color: antiquewhite;
+}
+
+body{
+  background-color: #5f9ea06e;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 1em;
+  background-color: aliceblue;
+  border: 1.8px black solid;
+  align-items: space-around;
+}
+.rdt_TableCol{
+  width: 50px;
+}
+
+.inputSelect{
+  display: flex;
+  height: 2.5em;
+  padding: 0.01em;
+
+}
+.fileSelectorLabel{
+  flex-grow: 1;
+}
+.fileSelectorInput{
+  flex-grow: 8;
+}
+
+button{
+
+  width: 200px;
+
+}
