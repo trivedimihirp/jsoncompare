@@ -13,7 +13,7 @@ function App() {
   let [devTestsToTriage, setDevTestsToTriage] = useState([]); 
 
   function getTestStaus( jsonData ){
-    let testDetails = []
+    let testDetails = [];
     let index = 0;
     for( let featureIndex in jsonData.data ){
      let feature = jsonData.data[featureIndex];
